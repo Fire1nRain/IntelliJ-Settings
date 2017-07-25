@@ -1,0 +1,31 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="AddToFavoritesPopup" />
+  <action id="ChangesView.Diff" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.TableResult.CloneRow" />
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.UpdatedFiles" />
+  <action id="EditorContextInfo" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorDuplicate" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FindBugs.PreviewSelectBugInstance">
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="alt f2" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShelvedChanges.Diff" />
+  <action id="WebOpenInAction" />
+  <action id="openAssertEqualsDiff" />
+</keymap>

@@ -1,0 +1,50 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="C:/Program Files/nodejs/node.exe" />
+  </component>
+  <component name="RefactoringSettings">
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="svn://192.168.0.201/all" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="svn://192.168.0.201/all" />
+        <option value="svn://192.168.0.201/" />
+      </list>
+    </option>
+    <option name="mySvnCommandLine" value="D:\Program Files\TortoiseSVN\bin\svn.exe" />
+  </component>
+  <component name="SvnBranchMapperManager">
+    <option name="myMapping">
+      <map>
+        <entry key="svn://192.168.0.201/all/java2/dubbo-parent">
+          <value>
+            <set>
+              <option value="D:\workspace\dubbo-parent" />
+            </set>
+          </value>
+        </entry>
+        <entry key="svn://192.168.0.201/all/java2/dubbo-parent/RESTful-test">
+          <value>
+            <set>
+              <option value="D:\workspace\dubbo-parent\RESTful-test" />
+            </set>
+          </value>
+        </entry>
+        <entry key="svn://192.168.0.201/all/java2/dubbo-parent/test-add">
+          <value>
+            <set>
+              <option value="D:\workspace\dubbo-parent\test-add" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
