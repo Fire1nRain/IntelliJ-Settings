@@ -17,6 +17,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Declaration">
+        <Item>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
+          <Description>Declaration</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Generate...">
         <Item>
           <IdeaActionID>Generate</IdeaActionID>
@@ -30,6 +38,22 @@
           <IdeaActionID />
           <ShortCut>'Shift+Esc'</ShortCut>
           <Description>Hide</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Next Occurrence">
+        <Item>
+          <IdeaActionID />
+          <ShortCut>'F3' or 'Ctrl+L' or '向下箭头' or 'Enter'</ShortCut>
+          <Description>Next Occurrence</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Revert...">
+        <Item>
+          <IdeaActionID>ChangesView.Revert</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Z'</ShortCut>
+          <Description>Revert...</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
