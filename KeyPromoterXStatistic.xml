@@ -75,6 +75,12 @@
       </Statistic>
     </option>
     <option name="suppressed">
+      <Statistic Action="Clear All">
+        <Item>
+          <IdeaActionID>ConsoleView.ClearAll</IdeaActionID>
+          <Description>Clear All</Description>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug">
         <Item>
           <IdeaActionID>ActivateDebugToolWindow</IdeaActionID>
