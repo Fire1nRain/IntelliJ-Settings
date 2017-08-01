@@ -66,5 +66,15 @@
         </Item>
       </Statistic>
     </option>
+    <option name="suppressed">
+      <Statistic Action="Toggle Line Breakpoint">
+        <Item>
+          <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
+          <ShortCut>'Ctrl+F8'</ShortCut>
+          <Description>Toggle Line Breakpoint</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+    </option>
   </component>
 </application>
