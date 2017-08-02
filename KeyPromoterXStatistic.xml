@@ -9,6 +9,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Copy">
+        <Item>
+          <IdeaActionID>$Copy</IdeaActionID>
+          <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
+          <Description>Copy</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Copy Value">
         <Item>
           <IdeaActionID>XDebugger.CopyValue</IdeaActionID>
@@ -30,7 +38,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Generate...">
@@ -41,11 +49,12 @@
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Next Occurrence">
+      <Statistic Action="Previous Occurrence">
         <Item>
-          <ShortCut>'F3' or 'Ctrl+L' or '向下箭头' or 'Enter'</ShortCut>
-          <Description>Next Occurrence</Description>
-          <Count>3</Count>
+          <IdeaActionID />
+          <ShortCut>'Shift+F3' or 'Ctrl+Shift+L' or '向上箭头' or 'Shift+Enter'</ShortCut>
+          <Description>Previous Occurrence</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
@@ -124,6 +133,19 @@
           <ShortCut>'Shift+Esc'</ShortCut>
           <Description>Hide</Description>
           <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Key Promoter X">
+        <Item>
+          <IdeaActionID>ActivateKeyPromoterXToolWindow</IdeaActionID>
+          <Description>Key Promoter X</Description>
+        </Item>
+      </Statistic>
+      <Statistic Action="Next Occurrence">
+        <Item>
+          <ShortCut>'F3' or 'Ctrl+L' or '向下箭头' or 'Enter'</ShortCut>
+          <Description>Next Occurrence</Description>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Resume Program">
