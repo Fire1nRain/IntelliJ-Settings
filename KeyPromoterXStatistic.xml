@@ -43,7 +43,6 @@
       </Statistic>
       <Statistic Action="Next Occurrence">
         <Item>
-          <IdeaActionID />
           <ShortCut>'F3' or 'Ctrl+L' or '向下箭头' or 'Enter'</ShortCut>
           <Description>Next Occurrence</Description>
           <Count>3</Count>
@@ -67,7 +66,6 @@
       </Statistic>
       <Statistic Action="Run 'SignUtils.main()'">
         <Item>
-          <IdeaActionID />
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'SignUtils.main()'</Description>
           <Count>2</Count>
@@ -79,6 +77,14 @@
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Update Project...">
+        <Item>
+          <IdeaActionID>Vcs.UpdateProject</IdeaActionID>
+          <ShortCut>'Ctrl+T'</ShortCut>
+          <Description>Update Project...</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Version Control">
@@ -115,7 +121,6 @@
       </Statistic>
       <Statistic Action="Hide">
         <Item>
-          <IdeaActionID />
           <ShortCut>'Shift+Esc'</ShortCut>
           <Description>Hide</Description>
           <Count>4</Count>
