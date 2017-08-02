@@ -46,7 +46,7 @@
           <IdeaActionID />
           <ShortCut>'Shift+F3' or 'Ctrl+Shift+L' or '向上箭头' or 'Shift+Enter'</ShortCut>
           <Description>Previous Occurrence</Description>
-          <Count>2</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
