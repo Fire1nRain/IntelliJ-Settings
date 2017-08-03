@@ -1,6 +1,22 @@
 <application>
   <component name="KeyPromoterXStatistic">
     <option name="statistics">
+      <Statistic Action="Add">
+        <Item>
+          <IdeaActionID />
+          <ShortCut>'Insert'</ShortCut>
+          <Description>Add</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Add New Configuration">
+        <Item>
+          <IdeaActionID />
+          <ShortCut>'Alt+Insert'</ShortCut>
+          <Description>Add New Configuration</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Commit...">
         <Item>
           <IdeaActionID>CheckinProject</IdeaActionID>
@@ -23,6 +39,14 @@
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy Value</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Debug 'RemoteServer'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'RemoteServer'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'SignUtils'">
@@ -57,6 +81,22 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Remove Configuration">
+        <Item>
+          <IdeaActionID />
+          <ShortCut>'Alt+Delete'</ShortCut>
+          <Description>Remove Configuration</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'remoteTest'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'remoteTest'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Revert...">
         <Item>
           <IdeaActionID>ChangesView.Revert</IdeaActionID>
@@ -78,6 +118,14 @@
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'SignUtils.main()'</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'remoteTest'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'remoteTest'</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Settings...">
@@ -176,6 +224,14 @@
           <ShortCut>'F3' or 'Ctrl+L' or '向下箭头' or 'Enter'</ShortCut>
           <Description>Next Occurrence</Description>
           <Count>5</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Refresh">
+        <Item>
+          <IdeaActionID />
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Refresh</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Resume Program">
