@@ -122,6 +122,12 @@
       </Statistic>
     </option>
     <option name="suppressed">
+      <Statistic Action="Build Artifacts...">
+        <Item>
+          <IdeaActionID>BuildArtifact</IdeaActionID>
+          <Description>Build Artifacts...</Description>
+        </Item>
+      </Statistic>
       <Statistic Action="Clear All">
         <Item>
           <IdeaActionID>ConsoleView.ClearAll</IdeaActionID>
