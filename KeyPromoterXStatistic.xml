@@ -86,6 +86,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Quick Evaluate Expression">
+        <Item>
+          <IdeaActionID>QuickEvaluateExpression</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+F8' or 'Alt+Button1 Click'</ShortCut>
+          <Description>Quick Evaluate Expression</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Remove Configuration">
         <Item>
           <ShortCut>'Alt+Delete'</ShortCut>
@@ -129,7 +137,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'Tomcat 8.0'</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'remoteTest'">
