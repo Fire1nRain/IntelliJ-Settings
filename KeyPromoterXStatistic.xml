@@ -178,6 +178,12 @@
       </Statistic>
     </option>
     <option name="suppressed">
+      <Statistic Action="Ant Build">
+        <Item>
+          <IdeaActionID>ActivateAntBuildToolWindow</IdeaActionID>
+          <Description>Ant Build</Description>
+        </Item>
+      </Statistic>
       <Statistic Action="Build Artifacts...">
         <Item>
           <IdeaActionID>BuildArtifact</IdeaActionID>
