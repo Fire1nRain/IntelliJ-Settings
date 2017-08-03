@@ -3,18 +3,24 @@
     <option name="statistics">
       <Statistic Action="Add">
         <Item>
-          <IdeaActionID />
           <ShortCut>'Insert'</ShortCut>
           <Description>Add</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Add New Configuration">
         <Item>
-          <IdeaActionID />
           <ShortCut>'Alt+Insert'</ShortCut>
           <Description>Add New Configuration</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Change Signature...">
+        <Item>
+          <IdeaActionID>ChangeSignature</IdeaActionID>
+          <ShortCut>'Ctrl+F6'</ShortCut>
+          <Description>Change Signature...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Commit...">
@@ -67,7 +73,6 @@
       </Statistic>
       <Statistic Action="Previous Occurrence">
         <Item>
-          <IdeaActionID />
           <ShortCut>'Shift+F3' or 'Ctrl+Shift+L' or '向上箭头' or 'Shift+Enter'</ShortCut>
           <Description>Previous Occurrence</Description>
           <Count>5</Count>
@@ -83,7 +88,6 @@
       </Statistic>
       <Statistic Action="Remove Configuration">
         <Item>
-          <IdeaActionID />
           <ShortCut>'Alt+Delete'</ShortCut>
           <Description>Remove Configuration</Description>
           <Count>4</Count>
@@ -157,6 +161,14 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'RemoteServer'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Up">
+        <Item>
+          <IdeaActionID />
+          <ShortCut>'Alt+向上箭头'</ShortCut>
+          <Description>Up</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -242,7 +254,6 @@
       </Statistic>
       <Statistic Action="Refresh">
         <Item>
-          <IdeaActionID />
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Refresh</Description>
           <Count>1</Count>
